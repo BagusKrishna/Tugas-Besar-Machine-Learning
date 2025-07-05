@@ -12,8 +12,10 @@ Proyek ini bertujuan memprediksi risiko stroke menggunakan beberapa metode, yait
 ## 📂 Isi Repository
 - `tubes-ml-stroke-prediction.ipynb` – Notebook analisis data, preprocessing, pelatihan & evaluasi model.
 - `svm_stroke_model.pkl` – Model SVM yang sudah terlatih dan disimpan.
+- `knn_stroke_model.pkl` – Model KNN yang sudah terlatih dan disimpan.
+- `rf_stroke_model.pkl` – Model RF yang sudah terlatih dan disimpan.
 - `healthcare-dataset-stroke-data.csv` – Dataset mentah.
-- `app.py` – API sederhana berbasis Flask untuk prediksi menggunakan model.
+- `app.py` – Streamlit untuk menjalankan code dan implementasi model.
 - `README.md` – Penjelasan ini.
 
 ## 🧰 Instalasi & Setup
@@ -22,6 +24,13 @@ Proyek ini bertujuan memprediksi risiko stroke menggunakan beberapa metode, yait
    git clone https://github.com/BagusKrishna/Tugas-Besar-Machine-Learning.git
    cd Tugas-Besar-Machine-Learning
 
+2. **(Opsional) Install dependensi**  
+   ```bash
+   pip install streamlit scikit-learn pandas numpy
+
+3. **Jalankan aplikasi Streamlit**  
+   ```bash
+   streamlit run app.py
 
 Link Google Colab :
 https://colab.research.google.com/drive/1f863-DN88TDGLA5yWQZE0xgphLTOWVUu?usp=sharing#scrollTo=5AsYsyEChfch
