@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load('svm_stroke_model.pkl')
+model = joblib.load('knn_stroke_model.pkl')
 
 # Judul aplikasi
 st.title("Aplikasi Prediksi Stroke")
